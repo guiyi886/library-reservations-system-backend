@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.student.mapper.ReadingRoomMapper">
+    <select id="getRoomPage" resultType="com.student.pojo.ReadingRoomSimple">
+        select id, room_name, room_seat_num, room_booked_seat_num from room_tb
+        <where>
+            <if test="has_empty == true">
+                and room_seat_num &gt;= room_booked_seat_num
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,26 @@
+# 配置数据源相关信息
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-cn-7yj3ip4xz0004jmo.rwlb.rds.aliyuncs.com:3306/library_db #?servierTimezone=UTC
+    username: library_user
+    password: '@password123'
+
+library:
+  jwt:
+    # 设置jwt签名加密时使用的秘钥
+    user-secret-key: librarySecretKey
+    # 设置jwt过期时间
+    user-ttl: 72000000
+    # 设置前端传递过来的令牌名称
+    user-token-name: jwtToken
+
+mybatis:
+  mapper-locations: classpath*:com/**/mapper/xml/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

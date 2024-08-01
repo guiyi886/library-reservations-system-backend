@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+    <tree path="/manager/src/main/java/com/manager/entity" title="实体类"/>
+    <tree path="/manager/src/main/java/com/manager/controller" title="控制层" extension="" presentableText=""
+          tooltipTitle="" icon="WelcomeOpenSelected" backgroundColor="0,0,0"/>
+    <tree path="/manager/src/main/java/com/manager/service" title="业务层" extension="" presentableText=""
+          tooltipTitle="" icon="WelcomeOpenSelected" backgroundColor="0,0,0"/>
+    <tree path="/manager/src/main/java/com/manager/service/impl" title="实现"/>
+    <tree path="/student/src/main/java/com/student/interceptor" title="拦截器"/>
+    <tree path="/student/src/main/java/com/student/config/WebMvcConfiguration.java" title="" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/student/src/main/java/com/student/config" title="拦截url配置"/>
+    <tree path="/student/src/main/java/com/student/exctptions" title="异常类"/>
+    <tree path="/student/src/main/java/com/student/mapper" title="持久层"/>
+    <tree path="/student/src/main/java/com/student/pojo" title="实体类"/>
+    <tree path="/student/src/main/java/com/student/controller" title="控制层"/>
+    <tree path="/student/src/main/java/com/student/properties" title="配置类"/>
+    <tree path="/student/src/main/java/com/student/result" title="结果封装"/>
+    <tree path="/student/src/main/java/com/student/service" title="业务层"/>
+    <tree path="/student/src/main/java/com/student/service/impl" title="实现"/>
+    <tree path="/student/src/main/java/com/student/util" title="应用程序"/>
+    <tree path="/manager/src/main/java/com/manager/util" title="应用程序"/>
+    <tree path="/manager/src/main/java/com/manager/exception" title="异常类"/>
+    <tree path="/manager/src/main/java/com/manager/config/ProjectExceptionAdvice.java" title="全局异常处理器"/>
+    <tree path="/manager/src/main/java/com/manager/config/WebMvcConfiguration2.java" title="拦截器配置" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/manager/src/main/java/com/manager/entity/DTO" title="接收"/>
+    <tree path="/manager/src/main/java/com/manager/entity/VO" title="返回"/>
+    <tree path="/manager/src/main/java/com/manager/exctptions" title="异常类"/>
+    <tree path="/manager/src/main/java/com/manager/interceptor" title="拦截器"/>
+    <tree path="/manager/src/main/java/com/manager/result" title="结果类"/>
+    <tree path="/manager/src/main/java/com/manager/jwt" title="jwt验证"/>
+    <tree path="/manager/src/main/java/com/manager/mapper/xml" title="" extension="" presentableText=""
+          tooltipTitle=""/>
+    <tree path="/manager/src/main/java/com/manager/mapper" title="持久层" extension="" presentableText=""
+          tooltipTitle="" icon="WelcomeOpenSelected" backgroundColor="0,0,0"/>
+</trees>

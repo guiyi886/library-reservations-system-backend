@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.manager.mapper.StudentManagerMapper">
+    <update id="modifyStudent" parameterType="com.manager.entity.DTO.StudentDTO">
+        update student_tb
+        <set>
+            <if test="stuId != null">stu_id = #{stuId},</if>
+            <if test="name != null">stu_name = #{name},</if>
+            <if test="sex != null">stu_sex = #{sex},</if>
+            <if test="phone != null">stu_phone = #{phone},</if>
+            <if test="score != null">stu_score = #{score},</if>
+        </set>
+            where id = #{id}
+    </update>
+</mapper>
